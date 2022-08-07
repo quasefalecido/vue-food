@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import DefaultTemplate from './layouts/DefaultTemplate.vue'
+import BaseTemplate from './layouts/BaseTemplate.vue'
 import router from './routes'
 
 Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(DefaultTemplate),
+    render: h => h(BaseTemplate),
     router
 }).$mount('#app')
